@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    gap: 20px;
+}
+.navbar{
+    background-color: black;
+    text-align: center;
+color: white;
+}
+.navbar a{
+    color: tomato;
+    text-decoration: none;
+    margin-right:  5px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+.about h1{
+    text-align: center;
+}
+.about img{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
